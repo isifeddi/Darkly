@@ -1,0 +1,2 @@
+/etc/passwd
+The user database, with fields giving the username, real name, home directory, and other information about each user
