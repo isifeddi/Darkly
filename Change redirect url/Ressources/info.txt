@@ -1,0 +1,2 @@
+We change the redirect url of one social media link in footer
+then we click on it

