@@ -4,3 +4,10 @@ In the members sql injection we got to know all the DB tables . among them there
 
 root:3bf1114a986ba87ed28fc1b5884fc2f8       => md5 decrypt =>   root:dragon
 admin:3bf1114a986ba87ed28fc1b5884fc2f8      => md5 decrypt =>   admin:shadow (these are the credentials that worked)
+
+
+
+########Method2###########
+The idea here is to get the right credentials using bruteforce by testing random passwords for admin username,  i used a list of 1000 most common passwords.
+
+https://github.com/DavidWittman/wpxmlrpcbrute/blob/master/wordlists/1000-most-common-passwords.txt
