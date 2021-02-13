@@ -1,0 +1,1 @@
+we notice a src query param in the url. i encrypted <script>alert(1)</script> to base64 and injected it the url
