@@ -1,1 +1,2 @@
-we notice a src query param in the url. i encrypted <script>alert(1)</script> to base64 and injected it the url
+In http://10.12.100.44/?page=media&src=nsa
+We notice a src query param in the url. I encrypted <script>alert(1)</script> to base64 and injected it the url

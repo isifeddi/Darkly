@@ -14,4 +14,4 @@
     www.website.com/login
     www.website.com/admin
 
-- /admin worked , we find the flag when loggin in.
+- The "/admin" route  worked , we find the flag afer logging in.

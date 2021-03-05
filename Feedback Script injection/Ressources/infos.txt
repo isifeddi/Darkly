@@ -1,3 +1,2 @@
-after incrementing the maxlenght attribute value , when tryin to inject script in name field we notice that <script> get trimmed
-so i done it this way so when the <script> tag inside the first one gets trimmed we still have <script>alert</script>
-<scr<script>ipt>alert("salam")</script> ==> <script>alert("salam")</script>
+Our goal here is to inject a script in the form. { exp:  <script>alert("salam")</script>   }
+In the name field if we insert just "<script" we get the flag
