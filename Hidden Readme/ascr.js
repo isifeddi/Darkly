@@ -1,6 +1,6 @@
 var JSSoup = require('jssoup').default;
 const axios = require('axios');
-const url = 'http://{IP}/.hidden/'
+const url = 'http://10.12.100.44/.hidden/'
 var README_LIST = []
 const sleep = (milliseconds) => {
     return new Promise(resolve => setTimeout(resolve, milliseconds))
@@ -20,7 +20,8 @@ const GetReadmeFiles = async (url) => {
                 var res2 = await axios.get(url + link)
                 if (README_LIST.indexOf(res2.data) === -1) {
                     README_LIST.push(res2.data)
-                    console.log({ url: url + link, content: res2.data })
+                    if(!res2.data.startsWith('T') && !res2.data.startsWith('D') && !res2.data.startsWith('N'))
+                        console.log({ url: url + link, content: res2.data })
                 }
             }
         }
