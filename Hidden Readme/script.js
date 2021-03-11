@@ -13,14 +13,13 @@ const readFiles = async (url) => {
         var soup = new JSSoup(html);
         var tags = soup.findAll('a');
         for (var i = 0; i < tags.length; i++) {
-            await sleep(600)
+            await sleep(800)
             const link = tags[i].attrs.href;
             if (link == 'README') {
                 const res = await axios.get(url + link);
                 const content = res.data
-                //console.log({ url: url + link, content: res.data })
                 if(!content.startsWith('T') && !content.startsWith('D') && !content.startsWith('N'))
-                    console.log({ url: url + link, content: res.data })
+                    console.log('url: '+ url+link, 'content: ' + res.data)
             }
             else if (link === '../');
             else {
