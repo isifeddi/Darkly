@@ -1,2 +1,2 @@
 when I checked the cookies I found a cookie named 'I_am_admin' wich has as a value 68934a3e9455fa72420237eb05902327 wich is "false" in md5
-I decrypted "true" in md5 and replaced the value of the cookie
+I encrypted "true" using md5 and replaced the value of the cookie
