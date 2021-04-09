@@ -1,2 +1,0 @@
-Our goal here is to inject a script in the form. { exp:  <script>alert("salam")</script>   }
-In the name field if we insert just "<script" we get the flag
