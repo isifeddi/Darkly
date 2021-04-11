@@ -1,2 +1,0 @@
-The idea here is to make a script that will read all the readme files in all nested links . In order to find something that can help in finding the flag
-which is 99dde1d35d1fdd283924d84e6d9f1d820
