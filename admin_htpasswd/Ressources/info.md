@@ -1,10 +1,10 @@
 # EXPLANATION
 
-We check the robots.txt file wich is a file that tells search engine crawlers which pages or files the crawler can or can't request from a website.
+We check the robots.txt file which is a file that tells search engine crawlers which pages or files the crawler can or can't request from a website.
 
 Two routes are found : /whatever and /.hidden.
 
-When accessing /whatever we find an htpasswd file that contains **root:8621ffdbc5698829397d97767ac13db3** wich clearly indicates a "username:password".
+When accessing /whatever we find an htpasswd file that contains **root:8621ffdbc5698829397d97767ac13db3** which clearly indicates a "username:password".
 
 After decrypting the password using md5 we have : root:dragon.
 
@@ -20,7 +20,7 @@ The "/admin" route  worked , we find the flag after logging in.
 
 # UTILITY
 
-    The .htpasswd wasn't protected by an htaccess.
+    The .htpasswd wasn't protected by an htaccess. So it was easily accessed :)
 
 # HOW TO AVOID ?
 

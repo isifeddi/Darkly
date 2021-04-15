@@ -7,7 +7,7 @@ In the members sql injection we got to know all the DB tables. Among them there 
 root:3bf1114a986ba87ed28fc1b5884fc2f8      
 admin:3bf1114a986ba87ed28fc1b5884fc2f8
 
-But our goal here is to get the password for admin using bruteforce by testing random passwords for admin username,  i used a list of 1000 most common passwords , and made a script.
+But our goal here is to get the password for admin using bruteforce by testing random passwords for admin username, I used a list of 1000 most common passwords , and made a script.
 
 https://github.com/DavidWittman/wpxmlrpcbrute/blob/master/wordlists/1000-most-common-passwords.txt
 
