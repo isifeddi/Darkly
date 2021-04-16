@@ -19,7 +19,7 @@ We decrypt the md5 string and it gives "albatroz" after lowering all the chars a
 
 # Utility
 
-Get important infos from the DB.
+Get important infos from the DB. And understand the database construction.
 
 # HOW TO AVOID ?
 

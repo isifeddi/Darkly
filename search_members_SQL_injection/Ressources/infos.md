@@ -19,7 +19,7 @@ We decrypt the countersign and it gives "FortyTwo" after lowering all the chars 
 
 # Utility
 
-Get important infos from the DB.
+Get important infos from the DB. And understand the database construction.
 
 # HOW TO AVOID ?
 

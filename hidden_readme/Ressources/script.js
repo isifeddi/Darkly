@@ -1,5 +1,5 @@
 const axios = require('axios');
-const URL = "http://10.12.100.44/.hidden/"
+const URL = "http://IP/.hidden/"
 var JSSoup = require('jssoup').default;
 
 const sleep = (milliseconds) => {

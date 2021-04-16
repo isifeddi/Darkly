@@ -3,7 +3,7 @@
 In the page /?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c 
 Some tips are given to change the user agent and referer from nsa.gov to our page. This can be done by using curl or some Chrome and Firefox extensions.
 
-``curl --user-agent "ft_bornToSec" --referer https://www.nsa.gov/ "http://SITE/?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c"``
+`curl --user-agent "ft_bornToSec" --referer https://www.nsa.gov/ "http://IP/?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c"`
 
 # UTILITY
 

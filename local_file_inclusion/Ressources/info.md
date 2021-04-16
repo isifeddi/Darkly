@@ -2,7 +2,7 @@
 
 When navigating through the website, we can notice the "page" variable in GET method.
 We try to display the content of /etc/passwd which is a very critical file . It is the user database, with fields giving the username, real name, home directory, and other information about each user.
-It worked by going to this route /?page=../../../../../../../etc/passwd
+we get the flag by going to this route /?page=../../../../../../../etc/passwd
 
 # UTILITY
 
