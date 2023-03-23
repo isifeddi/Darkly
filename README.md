@@ -1,0 +1,1 @@
+Introductory project to web security, this project will make you dissect a vulnerable website. You will develop your own way of thinking about security in a web application and become aware of the problems associated with simple development errors, both from a programming point of view and from a design point of view.
